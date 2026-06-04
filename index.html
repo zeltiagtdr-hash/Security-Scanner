@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Security Scanner</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔒 Website Security Scanner</h1>
+            <p class="subtitle">Deteksi kerentanan dasar pada website Anda</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <label for="url-input">Masukkan URL Website:</label>
+                <div class="input-group">
+                    <input type="url" id="url-input" placeholder="https://example.com" required>
+                    <button id="scan-btn" class="btn-primary">Mulai Scan</button>
+                </div>
+            </div>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Memindai website...</p>
+            </div>
+
+            <div id="results" class="results hidden">
+                <h2>Hasil Scan</h2>
+                <div id="results-content"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Catatan: Ini adalah scanner sederhana untuk tujuan edukasi. Gunakan hanya pada website yang Anda miliki atau memiliki izin untuk memindai.</p>
+        </footer>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

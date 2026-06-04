@@ -1,0 +1,12 @@
+{
+  "name": "security-scanner",
+  "version": "1.0.0",
+  "description": "Website Security Scanner",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
